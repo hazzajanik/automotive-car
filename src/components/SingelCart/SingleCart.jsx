@@ -15,7 +15,7 @@ const SingleCart = ({cart}) => {
             
            {
             if(data){
-            toast("Successfully Deleted!")
+            toast.success("Successfully Deleted!")
             }
            }
             
