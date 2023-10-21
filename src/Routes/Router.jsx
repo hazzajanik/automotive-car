@@ -43,7 +43,7 @@ const Router = createBrowserRouter([
             {
                 path:'/car/:id',
                 loader:() => fetch('https://automotive-server-side-lemon.vercel.app/car'),
-                element: <PrivateRoute><CarBrand></CarBrand></PrivateRoute>
+                element: <CarBrand></CarBrand>
             },
             {
                 path:"/singleCar/:id",
@@ -52,7 +52,7 @@ const Router = createBrowserRouter([
             },
             {
                 path:'/updateCar/:id',
-                element:<UpdateCar></UpdateCar>,
+                element:<PrivateRoute><UpdateCar></UpdateCar></PrivateRoute>,
                 loader:()=>fetch(`https://automotive-server-side-lemon.vercel.app/car`)
             }
         ]
