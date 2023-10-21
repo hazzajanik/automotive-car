@@ -43,9 +43,9 @@ const SingleCarDetail = () => {
     }
 
     return (
-        <div className=' container mx-auto px-10'>
+        <div className=' container mx-auto px-10 flex items-center justify-center mt-10'>
             <div className="card card-compact w-96 bg-base-100 shadow-xl">
-              <img src={single?.image} alt="" />
+              <img className='' src={single?.image} alt="" />
                 <div className="card-body">
                     <h2 className="card-title">{productname}</h2>
                     <p>Price : {price}</p>
