@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 import { useLoaderData, useParams } from 'react-router-dom';
-import { Swal } from 'sweetalert2';
 
 const SingleCarDetail = () => {
     const [single, setSingle] = useState({});
@@ -32,12 +32,7 @@ const SingleCarDetail = () => {
         .then(data =>{
             console.log(data);
             if(data.insertedId){
-                Swal.fire({
-                    title: 'success',
-                    text: 'User Added Successfully',
-                    icon: 'success',
-                    confirmButtonText: 'Cool'
-                  })
+                toast.success('Successfully Add!')
             }
         })
     }
@@ -60,11 +55,12 @@ const SingleCarDetail = () => {
 
                     <span>({ratting})</span></p>
                    
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary" onClick={handleCart}>Add to cart</button>
+                    <div className="card-actions justify-center">
+                        <button className="btn bg-black text-white hover:bg-zinc-900" onClick={handleCart}>Add to cart</button>
                     </div>
                 </div>
             </div>
+            <div><Toaster/></div>
         </div>
     );
 };

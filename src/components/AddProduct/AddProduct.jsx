@@ -33,7 +33,7 @@ const AddProduct = () => {
                     title: 'success',
                     text: 'User Added Successfully',
                     icon: 'success',
-                    confirmButtonText: 'Cool'
+                    confirmButtonText: 'Done'
                   })
             }
         })
