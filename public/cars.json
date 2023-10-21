@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "image": "https://img1.wsimg.com/isteam/ip/35ccfde6-099a-4d10-a4fd-448030cc24c3/Car_1-81d1f7d3.png/:/cr=t:5.36%25,l:13.84%25,w:69.09%25,h:89.29%25/rs=w:730,h:730,cg:true,m",
+      "name": "Product 1",
+      "brandname": "Toyota",
+      "price": 19.99,
+      "description": "A high-quality product for your needs."
+    },
+    {
+      "id": 2,
+      "image": "https://img1.wsimg.com/isteam/ip/35ccfde6-099a-4d10-a4fd-448030cc24c3/Car_2-0002.png/:/cr=t:5.36%25,l:15.58%25,w:69.09%25,h:89.29%25/rs=w:730,h:730,cg:true,m",
+      "name": "Product 2",
+      "brandname": "Ford",
+      "price": 24.99,
+      "description": "Affordable and reliable product."
+    },
+    {
+      "id": 3,
+      "image": "https://img1.wsimg.com/isteam/ip/35ccfde6-099a-4d10-a4fd-448030cc24c3/Car_3-0004.png/:/cr=t:5.36%25,l:16.08%25,w:69.09%25,h:89.29%25/rs=w:730,h:730,cg:true,m",
+      "name": "Product 3",
+      "brandname": "BMW",
+      "price": 29.99,
+      "description": "The perfect choice for your daily use."
+    },
+    {
+      "id": 4,
+      "image": "https://img1.wsimg.com/isteam/ip/35ccfde6-099a-4d10-a4fd-448030cc24c3/Car_1-81d1f7d3.png/:/cr=t:5.36%25,l:13.84%25,w:69.09%25,h:89.29%25/rs=w:730,h:730,cg:true,m",
+      "name": "Product 4",
+      "brandname": "Mercedes",
+      "price": 16.99,
+      "description": "Elegant design and great performance."
+    },
+    {
+      "id": 5,
+      "image": "https://img1.wsimg.com/isteam/ip/35ccfde6-099a-4d10-a4fd-448030cc24c3/Car_2-0002.png/:/cr=t:5.36%25,l:15.58%25,w:69.09%25,h:89.29%25/rs=w:730,h:730,cg:true,m",
+      "name": "Product 5",
+      "brandname": "Tesla",
+      "price": 34.99,
+      "description": "Premium quality at an affordable price."
+    },
+    {
+      "id": 6,
+      "image": "https://img1.wsimg.com/isteam/ip/35ccfde6-099a-4d10-a4fd-448030cc24c3/Car_3-0004.png/:/cr=t:5.36%25,l:16.08%25,w:69.09%25,h:89.29%25/rs=w:730,h:730,cg:true,m",
+      "name": "Product 6",
+      "brandname": "Honda",
+      "price": 22.99,
+      "description": "Versatile and stylish product for your needs."
+    }
+  ]
+  
