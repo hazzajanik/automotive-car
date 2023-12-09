@@ -7,7 +7,7 @@ const CarBrandDetail = ({ car }) => {
     
     return (
         <div className=' container mx-auto px-10 mt-10'>
-            <div className="card card-side bg-slate-300  ">
+            <div className="card card-side bg-slate-300">
             <figure><img className='w-full h-[300px] object-cover' src={image} alt="brand" /></figure>
             <div className="card-body">
                 <h2 className="card-title">{productname}</h2>

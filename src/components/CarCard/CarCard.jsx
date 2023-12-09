@@ -13,9 +13,6 @@ const CarCard = ({ car }) => {
                         <h2 className="card-title text-5xl  ">{brandname}</h2>
                     </div>
                 </div>
-
-
-
             </Link>
         </div>
     )

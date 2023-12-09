@@ -47,6 +47,7 @@ const UpdateCar = () => {
         .then(res => res.json())
         .then(data =>{
             toast.success('updated successfully')
+            
         
         })
     }

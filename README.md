@@ -1,9 +1,10 @@
-# React + Vite
+About this project : -
+Getting started with AutoMotion is easy. Simply explore our website to access a wealth of information on different car models, read reviews, and stay informed about the ever-evolving world of automobiles. Whether you're a first-time car buyer or a seasoned automotive enthusiast, AutoMotion has something for everyone.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+project Feature :-
+Comprehensive Car Database,Expert Reviews and Ratings,Compare and Contrast,Buying Guides and Tips,Latest Automotive News and Support.
 
-Currently, two official plugins are available:
+Website link:  https://auto-motive-c3c9b.web.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
 # b8a10-brandshop-client-side-hazzajanik
